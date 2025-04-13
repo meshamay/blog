@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Section styling */
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url('img/ubaid-e-alyafizi-8USjWmko4jQ-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    padding: 100px 20px;
+    box-sizing: border-box;
+}
+
+.section h1 {
+    font-size: 80px;
+    color: #f0f0f0;
+    margin: 20px 0;
+    max-width: 90%;
+}
+
+.section p {
+    font-size: 24px;
+    color: #e0e0e0;
+    line-height: 1.6;
+    margin: 10px 0;
+    max-width: 800px;
+}
+
+/* General navbar styling */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+/* Wrap social icons and name together */
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* Name */
+.navbar-left > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Social icons */
+.navbar-left img {
+    vertical-align: middle;
+    transition: transform 0.2s;
+    width: 30px;
+    height: 30px;
+}
+
+.navbar-left img:hover {
+    transform: scale(1.2);
+}
+
+/* Navigation links */
+#navbar-right {
+    display: flex;
+    gap: 20px;
+}
+
+#navbar-right a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+#navbar-right a:hover {
+    color: #25D366;
+}
