@@ -1,10 +1,10 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-}
-
-/* Section styling */
-.section {
+  }
+  
+  /* Section background */
+  .section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,25 +19,25 @@ body {
     color: white;
     padding: 100px 20px;
     box-sizing: border-box;
-}
-
-.section h1 {
+  }
+  
+  .section h1 {
     font-size: 80px;
     color: #f0f0f0;
     margin: 20px 0;
     max-width: 90%;
-}
-
-.section p {
+  }
+  
+  .section p {
     font-size: 24px;
     color: #e0e0e0;
     line-height: 1.6;
     margin: 10px 0;
     max-width: 800px;
-}
-
-/* General navbar styling */
-#navbar {
+  }
+  
+  /* Navbar styles */
+  #navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,48 +49,64 @@ body {
     z-index: 999;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     box-sizing: border-box;
-}
-
-/* Wrap social icons and name together */
-.navbar-left {
+  }
+  
+  .navbar-left {
     display: flex;
     align-items: center;
     gap: 15px;
-}
-
-/* Name */
-.navbar-left > a {
+  }
+  
+  .navbar-left > a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-}
-
-/* Social icons */
-.navbar-left img {
+  }
+  
+  .navbar-left img {
     vertical-align: middle;
     transition: transform 0.2s;
     width: 30px;
     height: 30px;
-}
-
-.navbar-left img:hover {
+  }
+  
+  .navbar-left img:hover {
     transform: scale(1.2);
-}
-
-/* Navigation links */
-#navbar-right {
+  }
+  
+  #navbar-right {
     display: flex;
     gap: 20px;
-}
-
-#navbar-right a {
+  }
+  
+  #navbar-right a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     transition: color 0.3s;
-}
-
-#navbar-right a:hover {
+  }
+  
+  #navbar-right a:hover {
     color: #25D366;
-}
+  }
+  
+  /* Responsive Image Grid */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-top: 80px; /* pushes below fixed navbar */
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  .column img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
